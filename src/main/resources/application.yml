@@ -1,0 +1,12 @@
+server:
+  servlet:
+    context-path: /api
+  error:
+    include-message: always
+
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/springbootreactdemo
+    username: postgres
+    password: 12345678
+    poll-size: 30
